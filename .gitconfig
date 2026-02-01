@@ -1,0 +1,8 @@
+[gpg]
+  format = ssh
+[commit]
+  gpgsign = true
+[user]
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKguUbWtZQu1TOzLISkDYn5WD8qTHjb8bIVzC7PGC4+I
+  email = matt.c.hughes+mchbot@gmail.com
+  name = mchbot
