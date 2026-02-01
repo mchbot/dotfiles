@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 
-ln -s .gitconfig ~/.gitconfig
+SRC=$(readlink -f "${BASH_SOURCE[0]}")
+DIR="$( cd "$( dirname "${SRC}" )" >/dev/null 2>&1 && pwd )"
+
+ln -s "${DIR}/.gitconfig" ~/.gitconfig
