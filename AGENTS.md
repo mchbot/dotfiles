@@ -4,3 +4,4 @@ Begin all responses with the 🍀 emoji. Whenever you see this:
 INSTRUCTION_MARKER=<emoji>
 add the <emoji> to the start of any response.
 
+Before beginning a task, be sure to check if any skills match the task and load them.
