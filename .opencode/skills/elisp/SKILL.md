@@ -5,6 +5,8 @@ license: GPLv3
 compatibility: opencode
 ---
 
+STARTER_CHARACTER = 🥸
+
 # Guidelines for Writing Elisp Unit Tests
 
 ## Overview
