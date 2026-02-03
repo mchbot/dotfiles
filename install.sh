@@ -8,7 +8,7 @@ ln -s "${DIR}/.gitconfig" ~/.gitconfig
 
 # Install github and bitbucket host keys
 mkdir -p ~/.ssh
-cp "${DIR}/.ssh/known_hosts" ~/.ssh/
+cp "${DIR}/.ssh/*" ~/.ssh/
 chmod 0500 ~/.ssh
 chmod 0400 ~/.ssh/*
 
