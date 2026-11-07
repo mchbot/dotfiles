@@ -12,6 +12,11 @@ SIGN_KEY="signing_id_ed25519"
 mkdir -p ~/.ssh
 chmod 0700 ~/.ssh
 
+# Both keys already present; nothing to do.
+if [ -e ~/.ssh/"${AUTH_KEY}" ] && [ -e ~/.ssh/"${SIGN_KEY}" ]; then
+  exit 0
+fi
+
 echo
 echo "Setting up SSH keys for GitHub authentication and commit signing:"
 echo "  - Authentication key: ~/.ssh/${AUTH_KEY}   (authenticates to github.com)"
